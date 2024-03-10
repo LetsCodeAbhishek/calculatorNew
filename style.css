@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(natureImage1.jpg);
+    background-size: cover;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px 10px black;
+
+}
+.calculator:hover{
+    background :linear-gradient(to right, #000000, #434343);
+}
+
+.calculator form input{
+    border: 2px solid white;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0,0,0,0.2) ;
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.calculator form input:hover{
+    background: linear-gradient(to right, #00bf8f, #001510);
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    
+}
+
+form .display input{
+
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    background-color: #fff;
+    color: black;
+}
+
+form div .equal{
+    width: 145px;
+}
+
+form input.operator{
+    color: yellow;
+}
+
+
+
+
+/* ------------------------ */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right , rgb(52, 43, 43) , skyblue, rgb(52, 43, 43) );
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.calculator form input{
+
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0,0,0,0.2) ;
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    
+}
+
+form .display input{
+
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    background-color: #fff;
+    color: black;
+
+
+}
+
+form div .equal{
+    width: 145px;
+}
+
+form input.operator{
+    color: yellow;
+} */
+
+
+
+
